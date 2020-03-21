@@ -6,7 +6,7 @@
 // @description     curseforge模组快速下载
 // @match           *://www.curseforge.com/minecraft/*
 // @require         http://cdn.bootcss.com/jquery/1.8.3/jquery.min.js
-// @version         0.0.1
+// @version         1.0.0
 // @grant           GM_addStyle
 // @updateURL       https://raw.githubusercontent.com/jihuayu/cf-download/master/dl.js
 // ==/UserScript==
@@ -49,8 +49,8 @@ var findurl2 = (str) => {
             console.log(url1)
             url1 = "http://cf.mirror.jihuayu.site/"+findurl2(url1);
             let  j = `
-                <div class="cf-recentfiles-credits-wrapper ml-auto my-auto">
-                <a href="${url1}" class="button button--icon-only button--sidebar">
+                <div class="cf-recentfiles-credits-wrapper ml-auto my-auto" >
+                <a href="${url1}" class="button button--icon-only button--sidebar"  style="background-color: crimson">
                     <span class="button__text">
                         <svg class="icon icon-fixed-width icon-margin" viewBox="0 0 20 20" width="16" height="16"><use xlink:href="/Content/2-0-7375-30488/Skins/CurseForge/images/twitch/Action/Download.svg#Action/Download"></use></svg>
                     </span>

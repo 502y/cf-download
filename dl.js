@@ -8,7 +8,7 @@
 // @require         http://cdn.bootcss.com/jquery/1.8.3/jquery.min.js
 // @version         0.0.1
 // @grant           GM_addStyle
-// @updateURL
+// @updateURL       https://raw.githubusercontent.com/jihuayu/cf-download/master/dl.js
 // ==/UserScript==
 
 
